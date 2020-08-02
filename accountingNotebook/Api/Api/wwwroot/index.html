@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Account management</title>
+</head>
+<body>
+    <h1>Account management</h1>
+    <div class="current-error hide" id="current-error">Not enough money to make payment</div>
+    <div class="container">
+        <aside>
+            <div class="operation">
+                <form action="">
+
+                    <div class="form-control">
+                        <label for="put-from">Credit card from</label>
+                        <input type="text" name="put-from" id="put-from">
+                    </div>
+                    
+                    <div class="form-control">
+                        <label for="put-amount">Amount</label>
+                        <input type="number" name="put-amount" id="put-amount">
+                    </div>
+        
+                    <button id="put-money">Put Money</button>
+                </form>
+            </div>
+
+            <div class="operation">
+                <form action="">
+
+                    <div class="form-control">
+                        <label for="transfer-to">Credit card to</label>
+                        <input type="text" name="transfer-to" id="transfer-to">    
+                    </div>
+
+                    <div class="form-control">
+                        <label for="transfer-amount">Amount</label>
+                        <input type="number" name="transfer-amount" id="transfer-amount">
+                    </div>
+                    
+                    <button id="transfer-money">Transfer Money</button>
+                </form>
+            </div>
+
+        </aside>
+
+        <main id="main">
+            <h2><strong>Account</strong> Status</h2>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
