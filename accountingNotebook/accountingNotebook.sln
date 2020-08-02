@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8FB65E74-86D7-475E-A0FA-5321AB3EC6AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D6E57C45-E44F-454C-83E5-744698270B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api\Api.csproj", "{F1EE536F-B981-44C0-935B-F3483316886E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{A0281353-A19F-4E89-9CBC-B6A20815861B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts.Accounting", "Contracts.Accounting\Contracts.Accounting.csproj", "{53C8AB9F-0776-4FA9-9939-A96290545712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Accounting", "Service.Accounting\Service.Accounting.csproj", "{3D3093F7-5328-4432-B38A-3363246BB21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1EE536F-B981-44C0-935B-F3483316886E} = {D6E57C45-E44F-454C-83E5-744698270B65}
+		{53C8AB9F-0776-4FA9-9939-A96290545712} = {A0281353-A19F-4E89-9CBC-B6A20815861B}
+		{3D3093F7-5328-4432-B38A-3363246BB21F} = {8FB65E74-86D7-475E-A0FA-5321AB3EC6AA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EE536F-B981-44C0-935B-F3483316886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EE536F-B981-44C0-935B-F3483316886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EE536F-B981-44C0-935B-F3483316886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EE536F-B981-44C0-935B-F3483316886E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C8AB9F-0776-4FA9-9939-A96290545712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C8AB9F-0776-4FA9-9939-A96290545712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C8AB9F-0776-4FA9-9939-A96290545712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C8AB9F-0776-4FA9-9939-A96290545712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3093F7-5328-4432-B38A-3363246BB21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3093F7-5328-4432-B38A-3363246BB21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3093F7-5328-4432-B38A-3363246BB21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3093F7-5328-4432-B38A-3363246BB21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
