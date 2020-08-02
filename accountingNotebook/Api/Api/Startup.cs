@@ -27,6 +27,15 @@ namespace Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("*").AllowAnyHeader().AllowAnyMethod();
+                    
+                });
+            });
             
             services.AddSingleton<IAccountingService, AccountingService>();
         }
@@ -50,6 +59,8 @@ namespace Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            
+            app.UseCors();
 
             app.UseAuthorization();
 
